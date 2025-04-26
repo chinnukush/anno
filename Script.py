@@ -4,7 +4,8 @@ class script(object):
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
-    ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
+    ABOUT_TXT = """<b>
+╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ├⍟ ᴏᴡɴᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
 ├⍟ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
@@ -24,7 +25,8 @@ class script(object):
 ᴀғᴛᴇʀ ᴛʜᴀᴛ, ᴛʀʏ ᴀᴄᴄᴇssɪɴɢ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ᴛʜᴇɴ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ "ᴛʀʏ ᴀɢᴀɪɴ" ʙᴜᴛᴛᴏɴ.
     </b>"""
            
-    MULTI_STATUS_TXT = """<b>╭────[ ᴅᴀᴛᴀʙᴀsᴇ 1 ]────⍟</b>
+    MULTI_STATUS_TXT = """<b>
+╭────[ ᴅᴀᴛᴀʙᴀsᴇ 1 ]────⍟</b>
 │
 ├⋟ ᴀʟʟ ᴜsᴇʀs ⋟ <code>{}</code>
 ├⋟ ᴀʟʟ ɢʀᴏᴜᴘs ⋟ <code>{}</code>
@@ -33,13 +35,13 @@ class script(object):
 ├⋟ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ ⋟ <code>{}</code>
 ├⋟ ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ ⋟ <code>{}</code>
 │
-<b>├────[ ᴅᴀᴛᴀʙᴀsᴇ 2 ]────⍟</b>   
+<b>├───[ ᴅᴀᴛᴀʙᴀsᴇ 2 ]───⍟</b>   
 │
 ├⋟ ᴀʟʟ ꜰɪʟᴇs ⋟ <code>{}</code>
 ├⋟ ꜱɪᴢᴇ ⋟ <code>{}</code>
 ├⋟ ꜰʀᴇᴇ ⋟ <code>{}</code>
 │
-<b>├────[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖 ]────⍟</b>   
+<b>├──[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖 ]──⍟</b>   
 │
 ├⋟ ᴜᴘᴛɪᴍᴇ ⋟ {}
 ├⋟ ʀᴀᴍ ⋟ <code>{}%</code>
@@ -47,9 +49,9 @@ class script(object):
 │
 ├⋟ ʙᴏᴛʜ ᴅʙ ꜰɪʟᴇ'ꜱ: <code>{}</code>
 │
-<b>╰─────────────────────⍟</b>"""
+<b>╰────────────────⍟</b>"""
 
-    STATUS_TXT = """<b>╭────[ ᴅᴀᴛᴀʙᴀsᴇ 1 ]────⍟</b>
+    STATUS_TXT = """<b>╭──[ ᴅᴀᴛᴀʙᴀsᴇ 1 ]──⍟</b>
 │
 ├⋟ ᴀʟʟ ᴜsᴇʀs ⋟ <code>{}</code>
 ├⋟ ᴀʟʟ ɢʀᴏᴜᴘs ⋟ <code>{}</code>
@@ -58,13 +60,13 @@ class script(object):
 ├⋟ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ ⋟ <code>{}</code>
 ├⋟ ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ ⋟ <code>{}</code>
 │
-<b>├────[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖 ]────⍟</b>   
+<b>├──[ 🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟs 🤖 ]──⍟</b>   
 │
 ├⋟ ᴜᴘᴛɪᴍᴇ ⋟ {}
 ├⋟ ʀᴀᴍ ⋟ <code>{}%</code>
 ├⋟ ᴄᴘᴜ ⋟ <code>{}%</code>   
 │
-<b>╰─────────────────────⍟</b>"""
+<b>╰─────────────────⍟</b>"""
 
     EARN_INFO = """<b><i><blockquote>💸 ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ᴛʜɪs ʙᴏᴛ - </blockquote>
 
@@ -76,17 +78,17 @@ class script(object):
 
 4:- ᴛʜᴇɴ sᴇᴛ ʏᴏᴜʀ sʜᴏʀᴛɴᴇʀ ᴅᴇᴛᴀɪʟs ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ 👇
 
-<code>/set_shortner omegalinks.in a7ac9b3012c67d7491414cf272d82593c75f6cbb</code>
+<code>/set_shortner omegalinks.in a7ac9b3h012c67d7491414cf272d82593c75f6cbb</code>
 
-<code>/set_shortner_2 mdiskshortner.link e7beb3c8f756dfa15d0bec495abc65f58c0dfa95</code>
+<code>/set_shortner_2 mdiskshortner.link e7beb3c8f756dkfa15d0bec495abc65f58c0dfa95</code>
 
-<code>/set_shortner_3 mdiskshortner.link e7beb3c8f756dfa15d0bec495abc65f58c0dfa95</code>
+<code>/set_shortner_3 mdiskshortner.link e7beb3oc8f756dfa15d0bec495abc65f58c0dfa95</code>
 
-<code>/set_tutorial https://t.me/DwldMS/19</code>
+<code>/set_tutorial https://t.me/TG_Bots_Support/216</code>
 
-<code>/set_tutorial_2 https://t.me/DwldMS/20</code>
+<code>/set_tutorial_2 https://t.me/TG_Bots_Support/216</code>
 
-<code>/set_tutorial_3 https://t.me/DwldMS/20</code>
+<code>/set_tutorial_3https://t.me/TG_Bots_Support/234</code>
 
 <code>/set_time 300</code>
 
@@ -275,9 +277,7 @@ Nᴀᴍᴇ - {}
 ◉ 03 ᴍᴏɴᴛʜꜱ - 220 ₹
 
 •─────•─────────•─────•
-💵 ᴜᴘɪ ɪᴅ - ⚠️ <b><u>ᴛʜɪꜱ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴛᴇᴍᴘᴏʀᴀʀʏ ᴄʟᴏꜱᴇᴅ.</u></b>
-
-🏷️ <a href='https://t.me/+blcE2jS-iGtkMjNl'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
+💵 ᴜᴘɪ ɪᴅ - ⚠️ <b><u>harikushal234@okicici</u></b>
 
 ‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 ‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ."""
@@ -311,7 +311,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/SilentXBotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/SilentXBotz>[SilentXBotz]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/+63JiMC4lCjBjZDFl">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/TG_BOTS_UPDATE>[ʜᴀʀɪᴋᴜsʜᴀʟ]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
@@ -391,4 +391,4 @@ Requested by : {message.from_user.mention}</b>"""
 
     PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""    
    
-    SOURCE_TXT = """<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ :</b> 👇\nThis Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited."""
+    SOURCE_TXT = """<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : ᴘʀᴏᴠɪᴅᴇs ᴛʜᴏᴜsᴀɴᴅ ᴏғ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜɪs ʙᴏᴛ ᴡɪᴛʜ sʜᴏʀᴛʟɪɴᴋ ғᴇᴀᴛᴜʀᴇ ɪғ ʏᴏᴜ ɴᴇᴇᴅ sᴏᴜʀᴄᴇ ᴍᴇssᴀɢᴇ ᴏᴡɴᴇʀ</b>"""

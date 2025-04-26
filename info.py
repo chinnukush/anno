@@ -67,14 +67,14 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/TG_Bots_Support/216")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/TG_Bots_Support/216")
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "linkcents.com")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "d1cae2ed2878c0293eb31b043f8846c9881d8bee")
+SHORTENER_API = environ.get("SHORTENER_API", "d1cae2ed2878c0293eb31b043f8846c9881d8bee")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkcents.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "linkcents.com")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "d1cae2ed2878c0293eb31b043f8846c9881d8bee")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "d1cae2ed2878c0293eb31b043f8846c9881d8bee")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkcents.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "linkcents.com")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "d1cae2ed2878c0293eb31b043f8846c9881d8bee")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "d1cae2ed2878c0293eb31b043f8846c9881d8bee")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkcents.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))

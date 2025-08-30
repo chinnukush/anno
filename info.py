@@ -62,19 +62,19 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002238159500')) #Verificat
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002238159500')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/TG_Bots_Support/234")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/TG_Bots_Support/234")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/TG_Bots_Support/234")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/HK_How_To_Open/2")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/HK_How_To_Open/2")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HK_How_To_Open/2")
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "45b6928d65d1c1dfc2d52d052d879b9b02dd7fe3")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arolinks.com")
+SHORTENER_API = environ.get("SHORTENER_API", "7ec0f6c62f20266998ba5a7ae16a1e1095cad590")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkshortify.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "45b6928d65d1c1dfc2d52d052d879b9b02dd7fe3")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "arolinks.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "7ec0f6c62f20266998ba5a7ae16a1e1095cad590")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkshortify.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "45b6928d65d1c1dfc2d52d052d879b9b02dd7fe3")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "arolinks.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "7ec0f6c62f20266998ba5a7ae16a1e1095cad590")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkshortify.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "1200"))

@@ -97,7 +97,7 @@ async def start(client, message):
                     InlineKeyboardButton('• ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •', callback_data='earn'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='bot')
                 ],[
-                    InlineKeyboardButton('• ғᴏʟʟᴏᴡ ᴏɴ ɪɴsᴛᴀɢʀᴀᴍ •', url=f'https://www.instagram.com/hari_moviez?igsh=YzU5Nng0NmMxZWgx')
+                    InlineKeyboardButton('♻️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ♻️', callback_data='disclaimer')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

@@ -1275,7 +1275,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('• ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •', callback_data='earn'),
                     InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='bot')
                 ],[
-                    InlineKeyboardButton('• ғᴏʟʟᴏᴡ ᴏɴ ɪɴsᴛᴀɢʀᴀᴍ •', url=f'https://www.instagram.com/hari_moviez?igsh=YzU5Nng0NmMxZWgx')
+                    InlineKeyboardButton('♻️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ♻️', callback_data='disclaimer')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1421,6 +1421,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.GFILTER_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+    )
+
+    elif query.data == "disclaimer":
+        buttons = [[
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='filters')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.DISCLAIMER_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
     )
